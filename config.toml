@@ -1,0 +1,45 @@
+baseURL = "https://pstwh.github.io/"
+languageCode = "en-us"
+title = "pstwh"
+theme="archie"
+copyright = "© Paulo Alves"
+
+pygmentsstyle = "monokai"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 
+[params]
+	mode="auto" 
+	useCDN=false 
+	subtitle = "Writing about software development, machine learning and other things..."
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/pstwh"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/pstwh"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
