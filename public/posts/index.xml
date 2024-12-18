@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on pstwh</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on pstwh</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>© Paulo Alves</copyright>
+    <lastBuildDate>Tue, 17 Dec 2024 22:25:00 -0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightweight License Plate Reading with Custom OCR</title>
+      <link>http://localhost:1313/posts/license-plates/</link>
+      <pubDate>Tue, 17 Dec 2024 22:25:00 -0300</pubDate>
+      <guid>http://localhost:1313/posts/license-plates/</guid>
+      <description>&lt;h1 id=&#34;idea&#34;&gt;Idea&lt;/h1&gt;&#xA;&lt;p&gt;Several months ago, I conceived a project and brought it to fruition.&lt;/p&gt;&#xA;&lt;p&gt;The core idea was to develop a lightweight, custom Optical Character Recognition (OCR) system for reading license plates, specifically Brazilian ones. This system needed to be fast enough to run efficiently on a smartphone, operate offline (eliminating the need for a server), and ultimately support a mobile application. The app would capture images of passing vehicles, recognize their license plates, and send the extracted data to an API.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>There is no better time than now</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Tue, 13 Dec 2022 13:39:23 -0300</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>&lt;p&gt;There is no better time than now&lt;br&gt;&#xA;To seize the day, to take the plow&lt;br&gt;&#xA;And do what must be done&lt;br&gt;&#xA;Before our time is done&lt;/p&gt;&#xA;&lt;p&gt;The clock ticks on, with no pause&lt;br&gt;&#xA;And time will not wait for us to pause&lt;br&gt;&#xA;So let us act, with all our might&lt;br&gt;&#xA;Before it&amp;rsquo;s too late, and we take flight&lt;/p&gt;&#xA;&lt;p&gt;The world is ours to shape and mold&lt;br&gt;&#xA;But only if we are bold&lt;br&gt;&#xA;So let us rise, and claim our place&lt;br&gt;&#xA;Before our time runs out, and we face&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

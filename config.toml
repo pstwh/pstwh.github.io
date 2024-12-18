@@ -1,45 +1,25 @@
 baseURL = "https://pstwh.github.io/"
 languageCode = "en-us"
 title = "pstwh"
-theme="archie"
+theme="paper"
 copyright = "© Paulo Alves"
 
-pygmentsstyle = "monokai"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
 
-paginate=3 
+
 [params]
-	mode="auto" 
-	useCDN=false 
-	subtitle = "Writing about software development, machine learning and other things..."
+  color = 'linen'                           # linen, wheat, gray, light
+  twitter = 'pstwh'
+  github = 'pstwh'
+  linkedin = 'pstwh'
+  rss = true                               
 
-[[params.social]]
-name = "GitHub"
-icon = "github"
-url = "https://github.com/pstwh"
+#   avatar = 'GRAVATAR_EMAIL'                
+  name = 'Paulo Alves'
+  bio = 'Writing about software development, machine learning and other stuff...'
 
-[[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/pstwh"
+  math = true                               
+  localKatex = false                        
+  favicon = "favicon.ico"                   
+  appleTouchIcon = "apple-touch-icon.png"   
 
-[[menu.main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "All posts"
-url = "/posts"
-weight = 2
-
-[[menu.main]]
-name = "About"
-url = "/about"
-weight = 3
-
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
+  direction = "ltr"                         
