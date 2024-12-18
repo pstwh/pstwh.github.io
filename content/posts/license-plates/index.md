@@ -35,7 +35,7 @@ Here the `<` and `>` chars are start and end tokens. While the `~` is the paddin
 
 I then used the same image dataset for both object detection training, and now used to train the OCR, first I cropped images of license plate. I then generated a corresponding .txt file for each cropped image. This text file contained the ground truth license plate string, using a context length of 16, and including the start, end and padding tokens.
 
-So my ground truch txt file is defined like: `<LQSJJ23>` and after on the `__get_item__` phase I added the `~` tokens. I used a context length of `16`.
+So my ground truth txt file is defined like: `<LQSJJ23>` and after on the `__get_item__` phase I added the `~` tokens. I used a context length of `16`.
 
 My dataset file was structured as follows:
 ```python
@@ -86,7 +86,7 @@ To make easy to use I decided to make two python libraries.
 - [Platedet](https://github.com/pstwh/platedet): to detect license plates in images
 - [Platerec](https://github.com/pstwh/platerec): to recognize/read license plates in images
 
-Of course the models are not perfect and can be improved. The models where trained on a relatively small dataset containing only Brazilian license plates. 
+Of course the models are not perfect and can be improved. The models were trained on a relatively small dataset containing only Brazilian license plates. 
 
 The project is open, so you can train your own models with your data.
 
