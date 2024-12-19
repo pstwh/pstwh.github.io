@@ -5,9 +5,8 @@ description: "Prepare for the future."
 tags: ["Artificial", "Intelligence", "AI", "Machine", "Learning", "ML"]
 ---
 
-# Are you ready?
 
-Imagine the first human unable to beat a machine. How did he feel?
+Imagine the first human unable to beat a machine. How did they feel?
 
 Let's start with the obvious:  
 AI systems will inevitably exceed human capabilities in every domain. They'll be faster, more efficient, and their operational costs will be minimal—essentially just energy.
